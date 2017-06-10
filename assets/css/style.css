@@ -3,7 +3,57 @@ html {
 }
 
 body {
+	background-image: url('../images/concrete-texture.png');
+	background-size: cover;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 1.6rem;
+}
+
+.box {
+	background-color: #fff;
+	border: 2px solid #dddddd;
+	padding: 1rem;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h1 {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	display: inline-block;
+	font-size: 2em;
+	padding: 1rem;
+}
+
+h2 {
+	font-size: 1.7em;
+}
+
+h3 {
+	font-size: 1.4em;
+}
+
+header {
+	background-color: #fff;
+	border-bottom: 2px solid #cccccc;
+}
+
+header .wrapper {
+	padding: 0 1rem;
+}
+
+footer {
+	background-color: #666666;
+	border-top: 4px solid #4aaaa5;
+	padding: 20px 0;
 }
 
 main {
@@ -14,10 +64,70 @@ main {
 main section {
 	box-sizing: border-box;
 	display: table-cell;
+	vertical-align: top;
 	width: 50%;
 }
 
+nav {
+	display: inline-block;
+	height: 100%;
+	position: absolute;
+	right: 0;
+}
 
+nav ul {
+	display: table;
+	height: 100%;
+}
+
+nav li {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+nav li a {
+	color: #777777;
+	padding: 1rem;
+	text-decoration: none;
+}
+
+p {
+	line-height: 2rem;
+	margin-bottom: 1rem;
+}
+
+#PageContent {
+	padding: 1rem;
+	max-width: 100%;
+	width: 650px;
+}
+
+#ProfilePic {
+	float: left;
+	padding: 0 1rem 1rem 0;
+	width: 200px;
+}
+
+#Sidebar {
+	padding: 1rem;
+	max-width: 100%;
+	width: 270px;
+}
+
+#Sidebar img {
+	width: 75px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.wrapper {
+	position: relative;
+	margin: 0 auto;
+	max-width: 100%;
+	width: 960px;
+}
 
 @media screen and(max-width: 1024px) {
 	body {
