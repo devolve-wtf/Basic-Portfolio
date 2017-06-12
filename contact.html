@@ -28,16 +28,16 @@
 
 				<hr>
 
-				<form id="ContactForm">
+				<form id="ContactForm" onsubmit="notifyContact()">
 					<label>Name</label>
-					<input type="text" placeholder="John Smith">
+					<input id="ContactName" type="text" placeholder="John Smith">
 
 					<label>Email</label>
-					<input type="email" placeholder="example@gmail.com">
+					<input id="ContactEmail" type="email" placeholder="example@gmail.com">
 
 					<label>Message</label>
 					
-					<textarea name="message" rows="10" form="ContactForm"></textarea>
+					<textarea id="ContactMessage" name="message" rows="10" form="ContactForm"></textarea>
 
 					<input class="button" type="submit" value="Submit" >
 				</form>

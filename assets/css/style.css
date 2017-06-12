@@ -29,6 +29,7 @@ body {
 	background-color: #4aaaa5;
 	border: 0;
 	color: #ffffff;
+	cursor: pointer;
 	font-weight: bold;
 	margin-top: 1rem;
 	width: auto !important;
