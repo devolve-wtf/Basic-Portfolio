@@ -6,7 +6,7 @@ html {
 
 body {
 	background-image: url('../images/concrete-texture.png');
-	background-size: cover;
+	background-attachment: fixed;
 	color: #777777;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 1.6rem;
@@ -22,7 +22,37 @@ body {
 .box {
 	background-color: #fff;
 	border: 2px solid #dddddd;
-	padding: 1rem;
+	padding: 2rem;
+}
+
+#ContactForm .button {
+	background-color: #4aaaa5;
+	border: 0;
+	color: #ffffff;
+	font-weight: bold;
+	margin-top: 1rem;
+	width: auto !important;
+	padding: 1rem 2rem;
+}
+
+#ContactForm label {
+	display: block;
+	margin-bottom: 1rem;
+	padding-top: 1rem;
+}
+
+#ContactForm input {
+	border: 1px solid #dddddd;
+	display: block;
+	margin-bottom: 1rem;
+	line-height: 2rem;
+	padding: 0.5rem;
+	width: 100%;
+}
+
+#ContactForm textarea {
+	border: 1px solid #dddddd;
+	width: 100%;
 }
 
 div {
@@ -136,13 +166,17 @@ p {
 	width: 270px;
 }
 
+#Sidebar .blocks {
+	text-align: center;
+}
+
 #Sidebar hr {
 	border-top: 1px solid #dddddd;
 	margin: 1.5rem 0;
 }
 
 #Sidebar img {
-	width: 75px;
+	width: 69px;
 }
 
 .text-center {
