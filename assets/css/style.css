@@ -61,7 +61,6 @@ body {
 }
 
 .display-none {
-	//display: none;
 	opacity: 0;
 	visibility: hidden;
 }
@@ -310,16 +309,4 @@ p {
 	margin: 0 auto;
 	max-width: 100%;
 	width: 960px;
-}
-
-@media screen and(max-width: 1024px) {
-	body {
-		font-size: 1.2rem;
-	}
-}
-
-@media screen and(max-width: 769px) {
-	main section {
-		width: 100%;
-	}
 }
