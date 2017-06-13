@@ -242,8 +242,13 @@ nav li {
 
 nav li a {
 	color: #777777;
+	font-weight: bold;
 	padding: 1rem;
 	text-decoration: none;
+}
+
+nav li a:hover {
+	color: #4aaaa5;
 }
 
 p {
