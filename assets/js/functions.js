@@ -37,6 +37,7 @@ var modal = document.getElementById('Modal');
 var closeButton = document.getElementById('CloseModal');
 var modalImage = document.getElementById('ModalImage');
 var thumbnails = document.getElementsByClassName('thumbnail');
+var projectLink = document.getElementById('ProjectLink');
 
 function closeModal() {
 	closeButton.addEventListener('click', function() {
@@ -48,7 +49,9 @@ function openModal() {
 	for(var i = 0; i < thumbnails.length; i++) {
 		thumbnails[i].addEventListener('click', function() {
 			var imageSrc = this.getAttribute('src');
+			var link = this.getAttribute('data');
 			modalImage.setAttribute('src', imageSrc);
+			projectLink.setAttribute('href', link)
 			modal.classList.remove('display-none');
 		});
 	}
