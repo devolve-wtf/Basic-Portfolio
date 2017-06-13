@@ -60,6 +60,32 @@ div {
 	box-sizing: border-box;
 }
 
+footer {
+	background-color: #666666;
+	border-top: 6px solid #4aaaa5;
+	color: #cccccc;
+	padding: 3rem 0;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.grid {
+	position: relative;
+	width: 100%;
+}
+
+.grid__item {
+	display: inline-block;
+	position: relative;
+	width: 49%;
+}
+
+.grid__item img {
+	max-width: 100%;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	color: #4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
@@ -97,16 +123,6 @@ hr {
 	margin: 2rem 0;
 }
 
-footer {
-	background-color: #666666;
-	border-top: 6px solid #4aaaa5;
-	color: #cccccc;
-	padding: 3rem 0;
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	left: 0;
-}
 
 main {
 	box-sizing: border-box;
