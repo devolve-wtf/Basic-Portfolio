@@ -60,6 +60,10 @@ body {
 	width: 100%;
 }
 
+.display-none {
+	display: none;
+}
+
 div {
 	box-sizing: border-box;
 }
@@ -161,6 +165,42 @@ main section {
 	display: table-cell;
 	vertical-align: top;
 	width: 50%;
+}
+
+#Modal {
+	background-color: rgba(0,0,0,0.77);
+	height: 800px;
+	width: 1024px;
+	margin: 0 auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: 4;
+}
+
+#Modal .button {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-size: 3rem;
+	padding: 2rem;
+	position: absolute;
+	right: 0;
+}
+
+#Modal h5 {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-size: 3rem;
+	margin-top: -4rem;
+	padding: 2rem;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+
+#Modal img {
+	border: 2rem solid #4aaaa5;
+	width: 100%;
 }
 
 nav {
